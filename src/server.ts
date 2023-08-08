@@ -20,12 +20,13 @@ app.use(
 app.get("/api/healthchecker", (req: Request, res: Response) => {
     res.status(200).json({
         status: "success",
-        message: "CRUD API with Node.js, Sequelize and PostgreSQL",
+        message: "CRUD API with Node.js, Sequelize and PostgreSQL by Tomisin Ajayi",
     });
 });
 
 app.use("/api/blogs", blogRouter);
 
+//route not found - error display
 app.all("*", (req: Request, res: Response) => {
     res.status(404).json({
         status: "fail",
