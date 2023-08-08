@@ -36,10 +36,10 @@ Now that we’ve learned about the anatomy of our endpoints and the different re
 
 * [Node](https://nodejs.org/en) should be installed on your PC. 
 * [PostgreSQL](https://www.postgresql.org/download/) needs to be installed and running.
-* [Docker](https://www.docker.com/) should be installed and Makefile is in the repositiry folder to create compose docker.
-* [Postman](https://www.postman.com/) to perform CRUD operations on backend database.
+* [Docker](https://www.docker.com/) should be installed and Makefile is in the repository folder to create compose docker.
+* [Postman](https://www.postman.com/) to perform CRUD operations on the backend database.
 
 ## Installation
-* Create PostgreSQL database by renaming `.env.sample` to `.env` and updating the information to your details.
+* Create a PostgreSQL database by renaming `.env.sample` to `.env` and updating the information to your details.
 * Run `yarn install` to install dependencies.
-* Run `yarn start` to compile app and connect to server `localhost: 8081`
+* Run `yarn start` to compile the app and connect to server `localhost: 8081`
