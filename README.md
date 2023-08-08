@@ -6,7 +6,7 @@ A CRUD API created with Node.js, Express.js, Sequelize and PostgreSQL. The REST 
 
 Full functioning CRUD(Create, Read, Update, Delete) Blog Application. 
 
-### Request Methods
+## Request Methods
 
 These are the methods chosen on the Postman which is used for testing the endpoints.
 
@@ -17,7 +17,7 @@ These are the methods chosen on the Postman which is used for testing the endpoi
 | `PATCH`  | Used to update one or more fields on an item e.g. update title of a blog. |
 | `DELETE` | Used to delete an item.                  |
 
-### Endpoints
+## Endpoints
 
 Now that we’ve learned about the anatomy of our endpoints and the different request methods that we should use, it’s time for some examples: 
 
