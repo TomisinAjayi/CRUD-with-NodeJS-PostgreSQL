@@ -10,7 +10,7 @@ router
     .get(findAllBlogsController)
     .post(validate(createBlogSchema), createBlogController);
 router
-    .route("/:blodId")
+    .route("/:blogId")
     .get(findBlogController)
     .patch(validate(updateBlogSchema), updateBlogController)
     .delete(deleteBlogController);
